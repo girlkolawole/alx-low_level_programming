@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * print function - print a function that prints in small alphabets
- * Return: 0
+ * print_alphabet - prints out the alphabet
+ * main - uses built in function
+ * Return: 0 if succesful
  */
-void print_alphabet(void);
-{
-	char i;
 
-	for (i = 'a'; i <= '2'; i++)
-		_putchar(i);
-	_putchar('\n');
+void print_alphabet(void)
+{
+char i;
+for (i = 'a'; i <= 'z'; i++)
+_putchar(i);
+_putchar('\n');
 }
